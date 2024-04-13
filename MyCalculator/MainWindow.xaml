@@ -1,0 +1,135 @@
+﻿<Window x:Class="MyCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyCalculator"
+        mc:Ignorable="d"
+        Title="My Calculator App" Foreground="Wheat" Background="LightGray" Height="525" Width="350">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="resetLabel"
+               Content="0"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Bottom"
+               
+               Grid.ColumnSpan="4"/>
+        <Button x:Name="acButton"
+                Click="AcButton_Click"
+                Foreground="Black"
+                
+            Content="AC" 
+            Grid.Row="1"/>
+        <Button x:Name="negativeBtn" Foreground="Black"
+                
+                Content="+/-" 
+                Grid.Row="1"
+                Grid.Column="1"/>
+        <Button x:Name="percentageBtn"
+                Foreground="Black"
+                
+                Content="%" 
+          Grid.Row="1"
+         Grid.Column="2"/>
+        
+        <Button x:Name="SevenButton" 
+                Click="numberBtn_Click" 
+                Background="{StaticResource numberBtnColor}"                
+                Content="7" 
+                
+                Grid.Row="2"
+                Grid.Column="0"/>
+        <Button Content="8"
+              Background="{StaticResource numberBtnColor}"
+                  x:Name="eightBtn" 
+                Click="numberBtn_Click" 
+          Grid.Row="2"
+          Grid.Column="1"/>
+        <Button x:Name="nineBtn"
+                Background="{StaticResource numberBtnColor}"                
+                Click="numberBtn_Click" Content="9" 
+          Grid.Row="2"
+          Grid.Column="2"/>
+        <Button x:Name="fourBtn"
+          Background="{StaticResource numberBtnColor}"                     
+                Click="numberBtn_Click" Content="4" 
+          Grid.Row="3"
+          Grid.Column="0"/>
+        <Button x:Name="fiveBtn"
+            Background="{StaticResource numberBtnColor}"                    
+                Click="numberBtn_Click" Content="5" 
+            Grid.Row="3"
+            Grid.Column="1"/>
+        <Button x:Name="sixBtn"
+            Background="{StaticResource numberBtnColor}"                    
+                Click="numberBtn_Click" Content="6" 
+            Grid.Row="3"
+            Grid.Column="2"/>
+        <Button x:Name="oneBtn" 
+            Background="{StaticResource numberBtnColor}"                    
+                Click="numberBtn_Click" Content="1" 
+            Grid.Row="4"
+            Grid.Column="0"/>
+        <Button x:Name="twoBtn" 
+            Background="{StaticResource numberBtnColor}"                    
+                Click="numberBtn_Click" Content="2" 
+            Grid.Row="4"
+            Grid.Column="1"/>
+        <Button x:Name="threeBtn" 
+            Background="{StaticResource numberBtnColor}"                   
+                Click="numberBtn_Click" Content="3" 
+            Grid.Row="4"
+            Grid.Column="2"/>
+        <Button x:Name="zeroBtn" 
+          Background="{StaticResource numberBtnColor}"                    
+                Click="numberBtn_Click" Content="0" FontSize="40"
+           Grid.Row="5"
+          Grid.Column="0"
+          Grid.ColumnSpan="2"/>
+        <Button x:Name="division"
+               Background="{StaticResource OperatorsColor}"                  
+                Click="operationsbtn_Click" Content="/" 
+          Grid.Row="1"
+          Grid.Column="3"/>
+        <Button x:Name="multiply" 
+             Background="{StaticResource OperatorsColor}"                 
+                Click="operationsbtn_Click" Content="*" 
+            Grid.Row="2"
+            Grid.Column="4"/>
+        <Button x:Name="subtract" 
+            Background="{StaticResource OperatorsColor}"                     
+                Click="operationsbtn_Click" Content="-" 
+            Grid.Row="3"
+            Grid.Column="4"/>
+        <Button x:Name="add"
+          Background="{StaticResource OperatorsColor}"                     
+                Click="operationsbtn_Click" Content="+" 
+            Grid.Row="4"
+            Grid.Column="4"/>
+        <Button x:Name="equalBtn"
+            Background="{StaticResource OperatorsColor}"                 
+                Content="=" 
+            Grid.Row="5"
+            Grid.Column="4"/>
+        <Button x:Name="dotBtn"
+            Background="{StaticResource numberBtnColor}"                 
+                Click="pointBtn_Click" 
+                Content="." 
+                
+                Grid.Row="5"
+                Grid.Column="2"/>        
+    </Grid>    
+</Window>

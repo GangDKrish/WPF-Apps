@@ -1,0 +1,15 @@
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\bin\Debug\WPFPractise.exe.config
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\bin\Debug\WPFPractise.exe
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\bin\Debug\WPFPractise.pdb
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.csproj.AssemblyReference.cache
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\MainWindow.g.cs
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\App.g.cs
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise_MarkupCompile.cache
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise_MarkupCompile.lref
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\MainWindow.baml
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.g.resources
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.Properties.Resources.resources
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.csproj.GenerateResource.cache
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.csproj.CoreCompileInputs.cache
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.exe
+C:\Users\SESA742414\Documents\MyPlayArea\WPFRevise\WPFPractise\obj\Debug\WPFPractise.pdb
